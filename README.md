@@ -1,4 +1,4 @@
-This repository was created to host my favourite competed projects to showcase my abilities for potential future employers/collaborators. 
+This repository was created to host my favourite competed projects to showcase my abilities for potential future employers/collaborators. Below I will give a brief summary and main insights of the projects. For further details please see the jupyter notebooks above.
 
 # Sea Turtle Face Detection with Distributed Machine Learning
 
