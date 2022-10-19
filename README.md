@@ -44,4 +44,4 @@ Bayesian experimental design uses the KL-divergence between the prior and poster
 
 <img width="666" alt="image" src="https://user-images.githubusercontent.com/61107719/196810619-b6762fe4-9e97-441e-99fc-04b9bd4cf97f.png">
 
-The above plot shows the estimated expected utility surface. The expected utility is defined as the expected KL-divergence over all possible data measurements. It is calcuated for interferometry experiments with one laser at different orentations. Each orientation is a different point on the surface. The orientation is defined by a start and end angle. 
+The above plot shows the estimated expected utility surface. The expected utility is defined as the expected KL-divergence over all possible data measurements. It is calcuated for interferometry experiments with one laser at different orentations. Each orientation is a different point on the surface. The orientation is defined by a start and end angle. The ridge corrosponds to lines through the center. These reach a maximum when the line is also vertically orientated. With start and end angles of $\pi/2$ and $3\pi/2$
