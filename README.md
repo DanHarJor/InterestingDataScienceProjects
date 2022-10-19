@@ -6,7 +6,7 @@ This repository was created to host my favourite competed projects to showcase m
 
 The main goal of this project was to experiment with different options when trying to distribute ML training between workers on a cluster. 
 
-https://assets-global.website-files.com/627ac9e2b71e64a6a0b76027/627adb72f21c6b4063e05b51_dask-header-logo.svg
+<img width="375" alt="image" src="https://user-images.githubusercontent.com/61107719/196738255-7133ce05-12a8-41ee-a57b-fbe90f7ddc4a.png">
 dask.org
 Dask is a python based API that facilitates distributed computing. It can link to a cluster of multiple workers and one scheduler computers. It provides multiple worflows to achieve distributed storing and manipulation of data. It is the main tool used in this project.
 
