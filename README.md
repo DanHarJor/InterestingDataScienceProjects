@@ -35,6 +35,13 @@ The semi majour axis is effectivly the distance between the two objects in the b
 The XGBoost algorithm was trained to predict the time delay of the binary black holes given the properties of the black hole. It can also output the importances of each property to its decisions. The graph above shows these importances. Going from left to right top to bottom you can see a progression of the graphs. At each step in the progression the most important feature from the previous graph is removed. The top three properties that affect time delay is the semi majour axis, common envalope efficiency (alpha) and orbital eccentricity (ecc). In the graphical approach both common envalope efficiency and semi majour axis showed some distinct features and trends. Although orbital escentricity did not. It was mostly a flat line. Thus this finding was unexpected. The high dimensionality of the data means that such trends are over simplified when only looking at a 2D graph. The machine learning approach was likly able to find a true trend where the grpahical approach failed. 
 
 
-
-
 # Optimisation of Interferometry Lines of Sight for Future Nuclear Fusion Experiments with the Bayesian Experimental Design Framework
+
+![image](https://user-images.githubusercontent.com/61107719/196814465-892119df-066e-49e9-b5f4-2e2dc4f596d6.png)
+The left of the plot shows a model plasma density inside a pollodial cross section of a tokamak. The plasma density is constant at magnetic field lines. The black lines represent interferometry lasers. The start angle is kept fixed while the end angle is altered. The plot on the right shows simulated line integrated densities that the interferometry would be aiming to measure. 
+
+Bayesian experimental design uses the KL-divergence between the prior and posterior probability distribution associated with a physical parameter of interest. Interferometry aims to measure the plasma density profile across the cross section of a tokamak. The prior distribution represents our knowledge of the plasma density profile before the experiment and the posterior our knowledge after the experiment. The KL-divergence is the information gain from the experiment. Multiple experiments can be simulated with different design parameters to estimate the design parameters that lead to the most information gain. In this investigation the orientation of interferometry lasers is the design parameter that is altered.
+
+<img width="666" alt="image" src="https://user-images.githubusercontent.com/61107719/196810619-b6762fe4-9e97-441e-99fc-04b9bd4cf97f.png">
+
+The above plot shows the estimated expected utility surface. The expected utility is defined as the expected KL-divergence over all possible data measurements. It is calcuated for interferometry experiments with one laser at different orentations. Each orientation is a different point on the surface. The orientation is defined by a start and end angle. 
